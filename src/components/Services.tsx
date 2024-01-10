@@ -11,7 +11,7 @@ export default function Services() {
               <div className="text-neutral-900 text-6xl font-extrabold leading-[50px] uppercase self-stretch mt-2 max-md:max-w-full max-md:text-4xl max-md:leading-10">
                 12 anos de tradição e qualidade em cortes de cabelo
               </div>
-              <div className="text-black text-xs self-stretch mt-4 max-md:max-w-full">
+              <div className="text-black text-sm self-stretch mt-4 max-md:max-w-full">
                 A Spartanos Barbearia é uma empresa inspirada na cultura
                 americana, que busca oferecer um serviço de excelência e um
                 ambiente único para seus clientes.
