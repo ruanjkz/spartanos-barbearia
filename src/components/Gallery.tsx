@@ -1,7 +1,7 @@
 export default function Gallery() {
   return (
     <>
-      <div className="text-neutral-900 text-xl font-semibold uppercase self-center whitespace-nowrap mt-24 max-md:mt-10">
+      <div id="gallery" className="text-neutral-900 text-xl font-semibold uppercase self-center whitespace-nowrap mt-24 max-md:mt-10">
         VEJA MAIS DO NOSSO TRABALHO
       </div>
       <div className="text-neutral-900 text-center text-6xl font-extrabold leading-[50.22px] uppercase self-center whitespace-nowrap mt-2 max-md:text-4xl">

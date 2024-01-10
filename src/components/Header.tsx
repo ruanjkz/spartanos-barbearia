@@ -1,22 +1,33 @@
 'use client'
 import { FaInstagram, FaFacebook } from "react-icons/fa";
+import * as Scroll from 'react-scroll';
 
 export default function Header() {
+  var Link = Scroll.Link;
+
   return (
     <div className="justify-between items-center self-stretch flex w-full gap-5 max-md:max-w-full max-md:flex-wrap">
       <div className="items-start self-stretch flex justify-between gap-5 max-sm:hidden">
-        <span className="text-white text-sm font-medium uppercase whitespace-nowrap cursor-pointer justify-center items-stretch self-stretch aspect-[0.7142857142857143] py-2.5 ">
-          ínicio
-        </span>
-        <div className="text-white text-sm font-medium uppercase self-center cursor-pointer my-auto">
-          quem somos
-        </div>
-        <div className="text-white text-sm font-medium uppercase self-center cursor-pointer my-auto">
-          SERVIÇOS
-        </div>
-        <div className="text-white text-sm font-medium uppercase cursor-pointer self-center grow whitespace-nowrap my-auto">
-          CONTATO
-        </div>
+        <Link to="home" spy={true} smooth={true} offset={0} duration={1000}>
+          <span className="text-white text-sm font-medium uppercase whitespace-nowrap cursor-pointer justify-center items-stretch self-stretch  py-2.5 ">
+            ínicio
+          </span>
+        </Link>
+        <Link to="whoWeAre" spy={true} smooth={true} offset={0} duration={1000}>
+          <span className="text-white text-sm font-medium uppercase self-center cursor-pointer my-auto">
+            quem somos
+          </span>
+        </Link>
+        <Link to="services" spy={true} smooth={true} offset={0} duration={1000}>
+          <span className="text-white text-sm font-medium uppercase self-center cursor-pointer my-auto">
+            SERVIÇOS
+          </span>
+        </Link>
+        <Link to="gallery" spy={true} smooth={true} offset={0} duration={1000}>
+          <span className="text-white text-sm font-medium uppercase self-center cursor-pointer my-auto">
+            Galeria
+          </span>
+        </Link>
       </div>
       <img
         src="./Logo.png"

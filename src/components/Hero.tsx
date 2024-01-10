@@ -2,7 +2,7 @@ import Header from "./Header"
 
 export default function Hero() {
   return (
-    <div className="flex-col  overflow-hidden self-stretch relative flex min-h-[800px] w-full items-center pt-8 pb-12 px-16 max-md:max-w-full max-md:px-5">
+    <div id="home" className="flex-col  overflow-hidden self-stretch relative flex min-h-[800px] w-full items-center pt-8 pb-12 px-16 max-md:max-w-full max-md:px-5">
       <img src="./hero.png" className="absolute object-cover h-full w-full  inset-0" />
       <div className="relative flex w-full max-w-[1000px]  flex-col mb-36 max-md:max-w-full max-md:mb-10">
         <Header/>

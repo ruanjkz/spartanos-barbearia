@@ -2,6 +2,7 @@ import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Image from "next/image";
+import * as Scroll from 'react-scroll';
 
 export default function Home() {
   return (
